@@ -21,6 +21,11 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# videos (archivos pesados — alojar en CDN para producción)
+/public/*.mp4
+/public/*.webm
+/public/*.mov
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

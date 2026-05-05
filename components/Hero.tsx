@@ -72,12 +72,11 @@ export default function Hero() {
       {/* Video background */}
       <video
         ref={videoRef}
-        className="absolute inset-0 w-full h-full object-cover translate-y-[17%]"
-        src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1920"
+        className="absolute inset-0 w-full h-full object-cover"
+        src="/hero.mp4"
         muted
         playsInline
         loop={false}
-        poster="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1920"
         style={{ opacity: 0 }}
       />
 
